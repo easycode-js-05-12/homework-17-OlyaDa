@@ -1,10 +1,12 @@
 import { LoginComponent } from './components/login.component';
 import { HomeComponent } from './components/home.component';
 import { NotFoundComponent } from './components/notfound.component';
+import { SignUpComponent } from "./components/sign-up.component";
 
 const routes = {
     '/': new HomeComponent(),
     '/login': new LoginComponent(),
+    '/singup': new SingUpComponent(),
     '**': new NotFoundComponent()
 };
 
